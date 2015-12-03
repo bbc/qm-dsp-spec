@@ -10,7 +10,7 @@ URL: https://code.soundsoftware.ac.uk/projects/qm-dsp
 Source: https://code.soundsoftware.ac.uk/attachments/download/1582/qm-dsp-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
-BuildRequires: gcc-c++, atlas-devel
+BuildRequires: gcc-c++
 Requires: atlas
 
 
